@@ -3,7 +3,6 @@
     overflow: hidden;
 	.row{
 		height: 100%;
-        overflow: hidden;
 		.skill{
 			width: 100%;
 			text-align: center;
@@ -13,7 +12,26 @@
 			}
 			i {
 				font-size: 60px;
+				padding-bottom: 15px;
 			}
+			.container {
+				width: 80%; 
+				background-color: #ddd;
+				margin-left: auto;
+				margin-right: auto;
+			  }
+			  
+			  .skills {
+				text-align: right; 
+				padding-top: 10px;
+				padding-bottom: 10px; 
+				color: $text; 
+			  }
+			  
+			  .twenty {width: 20%; background-color: $green;} 
+			  .fifty {width: 50%; background-color: $green;} 
+			  .sixty {width: 60%; background-color: $green;} 
+			  .eighty {width: 80%; background-color: $green;} 
 		}
 	}
 }

@@ -155,7 +155,7 @@ header .nav .icon {
 }
 
 @media screen and (max-width: 600px) {
-  #home .content-area .text h2 {
+  #home .content-area .text h1 {
     font-size: 26px;
   }
   #home .content-area .text i {
@@ -169,7 +169,7 @@ header .nav .icon {
 }
 
 #about .row {
-  height: 100%;
+  height: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -181,13 +181,12 @@ header .nav .icon {
 
 #about .row .foto {
   width: 100%;
-  width: 100%;
   text-align: center;
   padding-top: 40px;
 }
 
 #about .row .foto img {
-  border-radius: 50%;
+  border-radius: 5%;
   margin: auto;
   display: block;
 }
@@ -274,7 +273,6 @@ header .nav .icon {
 
 #skills .row {
   height: 100%;
-  overflow: hidden;
 }
 
 #skills .row .skill {
@@ -289,6 +287,41 @@ header .nav .icon {
 
 #skills .row .skill i {
   font-size: 60px;
+  padding-bottom: 15px;
+}
+
+#skills .row .skill .container {
+  width: 80%;
+  background-color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills .row .skill .skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#skills .row .skill .twenty {
+  width: 20%;
+  background-color: #235E6F;
+}
+
+#skills .row .skill .fifty {
+  width: 50%;
+  background-color: #235E6F;
+}
+
+#skills .row .skill .sixty {
+  width: 60%;
+  background-color: #235E6F;
+}
+
+#skills .row .skill .eighty {
+  width: 80%;
+  background-color: #235E6F;
 }
 
 @media screen and (min-width: 600px) {

@@ -8,4 +8,3 @@ function responseNav() {
     x.className = "nav";
   }
 }
-
