@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +15,9 @@
 <header id="nav">
     <div class="nav" id="myTopnav">
         <a href="#home" class="active">Štěpán Bakaj</a>
-        <a href="#about">ABOUT</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#contact">CONTACTS</a>
+        <a href="#about" onclick="hide()">ABOUT</a>
+        <a href="#skills" onclick="hide()">SKILLS</a>
+        <a href="#contact" onclick="hide()">CONTACTS</a>
         <a href="javascript:void(0);" class="icon" onclick="responseNav()">
           <i class="fa fa-bars"></i>
         </a>
@@ -38,7 +38,7 @@
 <section id="about">
   <div class="row">
     <div class="foto">
-      <img src="./img/me.jpg" alt="stepan_bakaj" width="300px" height="300px">
+      <img src="./img/me.jpg" alt="stepan_bakaj" width="300" height="300">
       <h2>Štěpán Bakaj</h2>
       <a href="https://www.facebook.com/stepan.bakaj/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
       <a href="https://github.com/bakajstep" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
@@ -60,58 +60,58 @@
 <!--skills-->
 <section id="skills">
     <div class="row">
-        <h1>Skills</h1>
+        <h2>Skills</h2>
         <div class="skill">
-            <h2>HTML5</h2>
+            <h3>HTML5</h3>
             <i class="fab fa-html5"></i>
             <div class="container">
                 <div class="skills eighty">80%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>CSS</h2>
+            <h3>CSS</h3>
             <i class="fab fa-css3-alt"></i>
             <div class="container">
                 <div class="skills sixty">60%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>JavaScript</h2>
+            <h3>JavaScript</h3>
             <i class="fab fa-js"></i>
             <div class="container">
                 <div class="skills twenty">20%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>SQL</h2>
+            <h3>SQL</h3>
             <i class="fas fa-database"></i>
             <div class="container">
                 <div class="skills fifty">50%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>Python</h2>
+            <h3>Python</h3>
             <i class="fab fa-python"></i>
             <div class="container">
                 <div class="skills sixty">60%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>Java</h2>
+            <h3>Java</h3>
             <i class="fab fa-java"></i>
             <div class="container">
                 <div class="skills eighty">80%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>C</h2>
+            <h3>C</h3>
             <i class="fab fa-cuttlefish"></i>
             <div class="container">
                 <div class="skills sixty">60%</div>
             </div>
         </div>
         <div class="skill">
-            <h2>PHP</h2>
+            <h3>PHP</h3>
             <i class="fab fa-php"></i>
             <div class="container">
                 <div class="skills eighty">80%</div>
@@ -122,7 +122,7 @@
 <!--contact-->
 <section id="contact">
     <div class="row">
-        <h1>CONTACT ME</h1>
+        <h2>CONTACT ME</h2>
     <p>If you prefer to contact me directly, send your Email to: <a class="email-link" href="mailto:stepan.bakaj@gmail.com">stepan.bakaj@gmail.com</a></p>
     <form action="mailto:stepan.bakaj12@gamil.com" method="POST" enctype="multipart/form-data" name="EmailForm">
         <label for="fname">First Name</label>

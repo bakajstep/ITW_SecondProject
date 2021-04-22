@@ -3,13 +3,17 @@
     overflow: hidden;
 	.row{
 		height: 100%;
+		h2 {
+			padding-bottom: 0px;
+		}
 		.skill{
 			width: 100%;
 			text-align: center;
 			padding-top: 40px;
-			h2{
+			h3{
 				font-size: 40px;
 			}
+			
 			i {
 				font-size: 60px;
 				padding-bottom: 15px;
@@ -19,15 +23,18 @@
 				background-color: #ddd;
 				margin-left: auto;
 				margin-right: auto;
+				border-radius: 8px;
 			  }
 			  
 			  .skills {
 				text-align: right; 
 				padding-top: 10px;
-				padding-bottom: 10px; 
+				padding-bottom: 10px;
+				padding-right: 5px;
+				font-size: 18px;
 				color: $text; 
+				border-radius: 8px;
 			  }
-			  
 			  .twenty {width: 20%; background-color: $green;} 
 			  .fifty {width: 50%; background-color: $green;} 
 			  .sixty {width: 60%; background-color: $green;} 

@@ -8,3 +8,15 @@ function responseNav() {
     x.className = "nav";
   }
 }
+
+// funkce pro schovani menu
+
+function hide() {
+  var topNav = document.querySelector('#myTopnav');
+  topNav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A') {
+      topNav.classList.remove('responsive');
+    }
+  });
+}
+

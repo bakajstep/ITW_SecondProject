@@ -275,13 +275,17 @@ header .nav .icon {
   height: 100%;
 }
 
+#skills .row h2 {
+  padding-bottom: 0px;
+}
+
 #skills .row .skill {
   width: 100%;
   text-align: center;
   padding-top: 40px;
 }
 
-#skills .row .skill h2 {
+#skills .row .skill h3 {
   font-size: 40px;
 }
 
@@ -295,13 +299,17 @@ header .nav .icon {
   background-color: #ddd;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
 }
 
 #skills .row .skill .skills {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 5px;
+  font-size: 18px;
   color: white;
+  border-radius: 8px;
 }
 
 #skills .row .skill .twenty {
@@ -427,16 +435,25 @@ html body {
   font-family: Calibri;
 }
 
-html body h2 {
-  color: white;
-}
-
 html body h1 {
   font-size: 70px;
   text-align: center;
   margin: 0;
   color: #235E6F;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+html body h2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 30px;
+  color: #235E6F;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+html body h3 {
+  color: white;
 }
 
 html body section {
