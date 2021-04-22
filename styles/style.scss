@@ -1,0 +1,59 @@
+@import "./variables";
+@import "./navigation";
+@import "./home";
+@import "./about";
+@import "./skills";
+@import "./contact";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Calibri;
+		h2 {
+			color: $text;
+		}
+		h1 {
+			font-size: 70px;
+			text-align: center;
+			margin: 0;
+			color: $green;
+			text-shadow: -1px -1px 0 $text, 1px -1px 0 $text, -1px 1px 0 $text, 1px 1px 0 $text;
+		}
+		section {
+			padding-top: 120px;
+			padding-bottom: 80px;
+		}
+		p {
+			color: $text;
+			font-size: 25px;
+			margin: 0;
+		}
+	}
+}
+
+footer{
+	text-align: center;
+	background: $green;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	.footText {
+		font-size: 15px;
+		color: $text;
+	}
+}
+
+
+
+
+
+
+
+
+

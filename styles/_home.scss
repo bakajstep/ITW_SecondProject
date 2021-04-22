@@ -1,0 +1,69 @@
+#home {
+	height: 100vh;
+    width: 100%;
+    background: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .content-area {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            align-items: center;
+            
+             h1 {
+                color: $green;
+                font-size: 60px;
+                overflow: hidden;
+                border-right: .15em solid red;
+                white-space: nowrap;
+                margin: 0 auto;
+                letter-spacing: .15em;
+                animation: 
+                  typing 3.5s steps(30, end),
+                  blink-caret .5s step-end infinite;
+            }
+            
+            @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+            }
+            
+            @keyframes blink-caret {
+                from, to { border-color: transparent }
+                50% { border-color: orange }
+            }
+            
+            i {
+                padding-top: 20px;
+                margin: auto;
+                font-size: 70px;
+                color: $green;
+                text-align:center;
+                display: inline-block;
+                width: 100%;
+                text-shadow: -1px -1px 0 $text, 1px -1px 0 $text, -1px 1px 0 $text, 1px 1px 0 $text;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #home {
+        .content-area {
+            .text {
+                 h2 {
+                    font-size: 26px;
+                 }
+                 i {
+                    font-size: 40px;
+                }
+            }
+        }           
+    }
+}

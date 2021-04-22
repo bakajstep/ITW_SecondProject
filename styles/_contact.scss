@@ -1,0 +1,67 @@
+#contact {
+	background: $lighterBackround;
+	.row{
+		text-align: center;
+		h1 {
+			padding-bottom: 40px;
+		}
+
+		p {
+			text-align: center;
+			a{
+				text-decoration: none;
+				color: $green;	
+			}
+		}
+
+		form {
+			padding-top: 50px;
+			label {
+				color: white;
+				font-size: 25px;
+			}
+	
+			input[type=text] {
+				margin-left: auto;
+				margin-right:auto;
+				width: 60%;
+				display: block;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-top: 6px;
+				margin-bottom: 16px;
+				resize: vertical;
+			}
+			textarea {
+				margin-left: auto;
+				margin-right:auto;
+				width: 60%;
+				display: block;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				margin-top: 6px;
+				margin-bottom: 16px;
+				resize: vertical;
+			}
+			input[type=submit] {
+				margin-left: auto;
+				margin-right:auto;
+				background-color: $green;
+				display: block;
+				color: white;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				&:hover {
+					color: $hover;
+				}
+			}
+		}	
+	}
+	
+}

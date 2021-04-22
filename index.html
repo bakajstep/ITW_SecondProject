@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/5c112c7171.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Štěpán Bakaj</title>
+    <link rel="icon" href="./img/favicon.png" type="image/png" sizes="16x16">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+<!--Navigace-->  
+<header id="nav">
+    <div class="nav" id="myTopnav">
+        <a href="#home" class="active">Štěpán Bakaj</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contact">CONTACTS</a>
+        <a href="javascript:void(0);" class="icon" onclick="responseNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+
+<!--Hlavni stranka--> 
+<div id="home">
+  <div class="content-area" >
+      <div class="text">
+        <h1>I'm trying coding.</h1>
+        <a href="#about"><i class="fas fa-arrow-down"></i></a>
+      </div>
+  </div>
+</div>
+
+<!--O mne--> 
+<section id="about">
+  <div class="row">
+    <div class="foto">
+      <img src="./img/author.png" alt="stepan_bakaj">
+      <h2>Štěpán Bakaj</h2>
+      <a href="https://www.facebook.com/stepan.bakaj/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="https://github.com/bakajstep" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/stepanbakaj/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/%C5%A1t%C4%9Bpan-bakaj-515367174/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="biography">
+      <div class="event-list">
+        <div class="event"><div class="event-lifeline"></div><span class="content">2001<br>Born.</span></div>
+        <div class="event"><div class="event-lifeline"></div><span class="content">2005<br>Joined kindergarten.</span></div>
+        <div class="event"><div class="event-lifeline"></div><span class="content">2007<br>Successfully end kindergarten and start going to primaryschool.</span></div>
+        <div class="event"><div class="event-lifeline"></div><span class="content">2016<br>Successfully end primaryschool and start going to <a href="https://www.ssptaji.cz/" target="_blank">SSPTAJI - IT</a>.</span></div>
+        <div class="event"><div class="event-lifeline"></div><span class="content">2020<br>With luck successfully end highschool and start going to <a href="https://www.fit.vut.cz/" target="_blank">VUT - FIT</a>.<br>And still suffer there -_-.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--skills-->
+<section id="skills">
+    <div class="row">
+        <h1>Skills</h1>
+        <div class="skill">
+            <h2>HTML5</h2>
+            <i class="fab fa-html5"></i>
+        </div>
+        <div class="skill">
+            <h2>CSS</h2>
+            <i class="fab fa-css3-alt"></i>
+        </div>
+        <div class="skill">
+            <h2>JavaScript</h2>
+            <i class="fab fa-js"></i>
+        </div>
+        <div class="skill">
+            <h2>SQL</h2>
+            <i class="fas fa-database"></i>
+        </div>
+        <div class="skill">
+            <h2>Python</h2>
+            <i class="fab fa-python"></i>
+        </div>
+        <div class="skill">
+            <h2>Java</h2>
+            <i class="fab fa-java"></i>
+        </div>
+        <div class="skill">
+            <h2>C</h2>
+            <i class="fab fa-cuttlefish"></i>
+        </div>
+        <div class="skill">
+            <h2>PHP</h2>
+            <i class="fab fa-php"></i>
+        </div>
+    </div>
+</section>
+<!--contact-->
+<section id="contact">
+    <div class="row">
+        <h1>CONTACT ME</h1>
+    <p>If you prefer to contact me directly, send your Email to: <a class="email-link" href="mailto:stepan.bakaj@gmail.com">stepan.bakaj@gmail.com</a></p>
+    <form action="mailto:stepan.bakaj12@gamil.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write me" style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+</section>
+<!--footer-->
+<footer>
+    <div class="footText">
+        Copyright &copy; <script>document.write(new Date().getFullYear())</script> Štěpán Bakaj All Rights Reserved
+    </div>
+</footer>
+</body>
+</html>
